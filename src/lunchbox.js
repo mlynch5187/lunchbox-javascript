@@ -7,6 +7,10 @@ class Lunchbox  {
     this.color = obj.color;
     this.snacks = [];
   }
+
+  acquireSnack(snack)  {
+    this.snacks.push(snack)
+  }
 }
 
 module.exports = Lunchbox;
