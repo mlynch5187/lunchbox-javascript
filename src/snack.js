@@ -1,5 +1,6 @@
 class Snack {
-  constructor(name) {
+  constructor(type) {
+    this.type = type;
     this.deliciousLevel = 'extra';
   }
 }
