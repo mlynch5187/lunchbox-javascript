@@ -1,6 +1,7 @@
 class Lunchbox  {
-  constructor() {
-
+  constructor(obj) {
+    obj = obj || {};
+    this.owner = obj.owner
   }
 }
 
