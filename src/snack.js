@@ -13,6 +13,18 @@ class Snack {
       this.cuttingItClose = true;
     }
   }
+
+  checkForHealthy() {
+    var stringed = String(this.type)
+
+    if (stringed.includes('Fruit'))  {
+      return true;
+    } else if (stringed.includes('fruit')) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
 
 module.exports = Snack;
