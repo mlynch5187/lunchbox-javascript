@@ -5,6 +5,7 @@ class Lunchbox  {
     this.material = obj.madeOf;
     this.shape = obj.shape;
     this.color = obj.color;
+    this.snacks = [];
   }
 }
 
