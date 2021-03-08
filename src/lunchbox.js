@@ -1,6 +1,6 @@
-class Lunchbox()  {
+class Lunchbox  {
   constructor() {
-    
+
   }
 }
 

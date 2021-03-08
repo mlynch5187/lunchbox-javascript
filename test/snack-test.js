@@ -1,9 +1,9 @@
 var assert = require('chai').assert;
-var Snack = require('./snack');
+var Snack = require('../src/snack');
 
 describe('Snack', function() {
 
-  it.skip('should be extra delicious', function() {
+  it('should be extra delicious', function() {
     var pistachio = new Snack("Pistachio");
 
     assert.equal(pistachio.deliciousLevel, "extra");

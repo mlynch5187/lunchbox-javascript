@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
-var Snack = require('./snack');
-var LunchBox = require('./lunchbox');
+var Snack = require('../src/snack');
+var LunchBox = require('../src/lunchbox');
 
 describe('Lunchbox', function() {
 
